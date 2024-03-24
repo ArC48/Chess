@@ -1,12 +1,13 @@
 # Chess
 
-![Chess Board](https://webappstatic.buzzfeed.com/static/2020-11/10/21/asset/7614a2480210/anigif_sub-buzz-14652-1605044757-14.gif)
-
-
-## Chess Game in Python
+![Beth Harmon](https://webappstatic.buzzfeed.com/static/2020-11/10/21/asset/7614a2480210/anigif_sub-buzz-14652-1605044757-14.gif)
 
 ### Rules
-The game is played on an 8x8 grid, with each player controlling an army of 16 pieces, including a king, queen, rooks, knights, bishops, and pawns. Each piece has its own symbol: 
+<p>The game is played on an 8x8 grid </p>
+<img src="https://i.pinimg.com/originals/66/63/19/66631954ad3c15ea24c85e68d0e7919f.gif" alt="Chess Board" width="100" height="100">
+
+
+with each player controlling an army of 16 pieces, including a king, queen, rooks, knights, bishops, and pawns. Each piece has its own symbol: 
 - ♔ for king
 - ♕ for queen
 - ♖ for rook
