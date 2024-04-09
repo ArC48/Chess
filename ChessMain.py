@@ -6,7 +6,7 @@ import pygame as p
 import ChessEngine
 
 WIDTH = HEIGHT = 512
-DIMENSION = 8  # dimenstions of a chess board are 8x8
+DIMENSION = 8  # dimensions of a chess board are 8x8
 SQUARE_SIZE = HEIGHT // DIMENSION
 MAX_FPS = 15  # for animations later on
 IMAGES = {}
@@ -15,7 +15,6 @@ IMAGES = {}
 initialize a global dictionary of images. 
 this will be called exactly once in the main.
 '''
-
 def load_images():
     pieces = ["wP", "wR", "wN", "wB", "wK", "wQ",
               "bP", "bR", "bN", "bB", "bK", "bQ"]
@@ -49,7 +48,7 @@ Responsible for all the graphics within a current game state
 '''
 def draw_game_state(screen, game_state):
     draw_board(screen) # draw squares on the board
-    # add in pievce highlighting or move suggestions (later)
+    # add in piece highlighting or move suggestions (later)
     draw_pieces(screen, game_state.board)
 
 
@@ -62,6 +61,8 @@ def draw_board(screen):
         for column in range(DIMENSION):
             color = colors[((row + column) % 2)]
             p.draw.rect(screen, color, p.Rect(column*SQUARE_SIZE, row*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
+
+
 def draw_pieces(screen, board):
     for row in range(DIMENSION):
         for column in range(DIMENSION):
