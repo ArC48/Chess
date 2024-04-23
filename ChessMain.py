@@ -15,7 +15,6 @@ IMAGES = {}
 initialize a global dictionary of images. 
 this will be called exactly once in the main.
 '''
-
 def load_images():
     pieces = ["wP", "wR", "wN", "wB", "wK", "wQ",
               "bP", "bR", "bN", "bB", "bK", "bQ"]
